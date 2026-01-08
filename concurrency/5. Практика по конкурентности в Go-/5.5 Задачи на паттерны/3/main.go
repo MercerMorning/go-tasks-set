@@ -7,6 +7,10 @@ import (
 	"time"
 )
 
+//ограничение кол-ва коннектов
+//ограничение кол-ва горутин
+//ограничение rps
+
 type Request struct {
 	Payload string
 }
